@@ -1,0 +1,350 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+	width: 1330px;
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+	background-color: whitesmoke;
+}
+
+.navbar {
+	padding: 15px;
+    background-color: #123f56;
+    display: flex;
+}
+
+.menu {
+	float: left;
+}
+.menu-list {
+	list-style-type: none;
+	display: inline-block;
+	padding: 7px;
+	outline: 1px solid #888;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.menu-link {
+	color: white;
+    text-decoration: none;
+}
+
+.logo {
+	margin-left: 178px;
+}
+.search {
+	width: 250px;
+    height: 25px;
+    margin-left: 180px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.find {
+	border-color: #00a046;
+    background-color: #00a046;
+    color: #fff;
+    font-size: 16px;
+    width: 54px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.main {
+	background-color: #d3ecde;
+    text-align: center;
+    padding-top: 250px;
+    height: 350px;
+}
+
+.main-content {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main-text {
+	font-size: 22px;
+}
+
+.content-promo {
+	background-color: #ffcc33;
+	height: 350px;
+}
+
+.post-office {
+	list-style-type: none;
+	float: left;
+}
+
+.post-h3 {
+	font-size: 32px;
+	padding-left: 75px;
+	padding-top: 100px;
+}
+
+.post-text {
+	padding-left: 77px;
+    padding-top: 55px;
+    font-size: 26px;
+}
+
+
+.footer {
+	height: 370px;
+	background-color: #f3f3f3;
+}
+
+.contacts {
+    display: inline-flex;
+    margin: 60px;
+}
+
+.contact-1 {
+    padding-right: 125px;
+}
+
+.contact-2 {
+    padding-right: 125px;
+}
+
+.contact-h3 {
+    padding-bottom: 25px;
+}
+
+.contact-text {
+    padding-bottom: 10px;
+}
+
+.copyright {
+	float: left;
+	margin-top: 30px;
+	margin-left:50px;
+}
+
+.social-link {
+    position: absolute;
+    left: 656px;
+    margin-top: 30px;
+}
+
+.terms {
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+
+
+
+/* Catalog */
+
+
+.catalog {
+	height: 800px;
+	background-color: white;
+}
+
+.catalog-list {
+	display: inline-block;
+	outline: 1px solid;
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.ctg-list {
+    padding: 10px;
+}
+
+.ads {
+	float: right;
+
+}
+
+.slider {
+	background-image: url("../Images/ads.png");
+	background-color: aquamarine;
+	margin: 9px;
+	width: 1024px;
+	height: 288px;
+}
+.ads-h3 {
+	font-family: Verdana,sans-serif;
+    color: dimgrey;
+    font-size: 28px;
+    padding-left: 65px;
+    padding-top: 75px;
+}
+.ads p {
+    margin-top: 20px;
+    margin-left: 68px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    margin-left: 140px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+}
+
+checkout{}
+
+.checkout-h3 {
+    margin: 30px 35px 5px;
+}
+
+.only-store {
+    margin-left: 15px;
+}
+
+.only-list {
+    display: inline-block;
+    padding: 20px;
+    border-right: outset;
+    border-bottom: outset;
+}
+
+
+.product{
+    height: 465px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.content-product h3 {
+	font-size: 28px;
+    margin: 20px;
+}
+
+.details {
+    height: 20px;
+    background-color: #d1d1d1;
+    padding: 15px;
+}
+.details-a {
+	text-decoration: none;
+}
+
+.details-a:hover {
+	border-bottom: 1px solid green;
+}
+
+
+
+.img-product {
+	float: left;
+}
+
+.description {
+	position: absolute;
+	left: 575px;
+
+}
+
+.button {
+    width: 170px;
+    height: 70px;
+    margin: 35px 190px;
+    background-color: antiquewhite;
+    border-color: aqua;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.charac{
+	background-color: #d1d1d1;
+	height: 30px;
+	padding: 10px;
+}
+
+th {
+	padding: 10px;
+}
+
+td {
+	padding-left: 120px;
+}
+.contact {
+	width: 100%;
+	background-color: #f1faf1;
+}
+
+.form-group {
+	padding-left: 150px;
+    padding-top: 70px;}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2B2D3A;
+}
+
+.input {
+    width: 332px;
+    height: 28px;
+    border: 1px #B2B3C1 solid;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 8px 0;
+}
+
+.checkbox {
+    margin: 15px;
+}
+
+.submit {
+    width: 160px;
+    height: 38px;
+    margin-right: 12px;
+    text-align: center;
+    border: 4px #5568ff;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5568FF;
+}
+
+.reset {
+    width: 160px;
+    height: 38px;
+    margin-right: 12px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px #5568ff solid;
+    background-color: #f8f8f8;
+    color: #5568ff;
+}
+
+.address {
+	padding: 20px 145px;
+}
+
+.address li {
+	list-style-type: none; 
+}
+
+.address h2 {
+	padding: 10px;
+}
